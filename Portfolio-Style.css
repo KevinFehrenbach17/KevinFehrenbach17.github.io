@@ -1,0 +1,95 @@
+*{
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a{
+	background: #333;
+  	color: #ccc;
+  	text-decoration: none;
+  	text-align: center;
+  	padding: 0.5rem;
+  	overflow: hidden;
+  	box-shadow: 2px 2px 3px black inset;
+  	border-radius: 5px;
+}
+a hover{
+  color: #fff;
+  box-shadow: 2px 2px 15px cyan inset;
+}
+
+body{
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 50%, rgba(189,188,188,1) 100%);
+}
+.container{
+	background: rgb(255,233,80);
+	background: linear-gradient(195deg, rgba(255,233,80,1) 0%, rgba(249,135,28,1) 50%, rgba(189,0,0,1) 100%);
+	border-radius: 17px;
+	box-shadow: 7px 7px 7px grey;
+}
+
+
+}
+
+h1{
+	font-size: 65px;
+}
+
+.hero{
+	border-radius: 17px;		
+}
+
+h2{
+	font-size: 37px;
+}
+
+h1, h2{
+	
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: -3px 0 0 #ccc;
+
+}
+
+p{
+	font-size:30px;
+	margin: 2rem;
+}
+
+.indv_skills{
+	font-size: 27px;
+}
+
+.ProfilePic{
+	width: 30%;
+	height: 40%;
+	border-radius: 17px;
+}
+
+.projpic{
+	width: 10rem;
+	height: 10rem;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+    border-radius: 17px;
+}
+.pic{
+		
+}
+
+#social-media a{
+	background: #333;
+  	color: #ccc;
+  	text-decoration: none;
+  	box-shadow: 2px 2px 3px black inset;
+}
+
+
+#social-media a:hover {
+  color: #fff;
+  box-shadow: 2px 2px 15px cyan inset;
+}
+
+
+

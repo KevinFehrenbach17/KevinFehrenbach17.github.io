@@ -1,0 +1,103 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 2rem auto;
+	width:1250px;
+	height: auto;
+}
+
+.navi{ 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+nav {
+    padding: 10px;
+    margin: 10px;
+}
+a{
+	text-align:center;
+	width: 50%;
+ 	margin: 75px;
+ 	padding: 10px;
+}
+
+.hero{
+	
+    margin-left: auto;
+    margin-right: auto;
+	width: 1000px;
+	height: 450px;
+}
+
+.main-head{
+	
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
+.about_me{
+	
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.skills{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.indv_skills{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+
+}
+
+
+.project{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+
+}
+.pic{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 300px, 300px, 300px;				
+	grid-gap: 10px;
+
+	}
+
+#social-media{
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+#social-media a{
+  display: block;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align:center;
+  overflow: hidden;
+  
+}
+
+
+
+
+
+
