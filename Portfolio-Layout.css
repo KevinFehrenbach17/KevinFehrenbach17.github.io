@@ -3,7 +3,7 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 2rem auto;
-	width:1250px;
+	width:1150px;
 	height: auto;
 }
 
@@ -62,19 +62,27 @@ a{
 
 }
 
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
 
 .project{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	padding: 2rem;
+	padding: 0.5rem;
 
 }
 .pic{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px, 300px, 300px;				
+	grid-template-rows: 100px, 100px, 100px;				
 	grid-gap: 10px;
 
 	}
@@ -83,6 +91,7 @@ a{
   position: fixed;
   top: 1rem;
   left: 1rem;
+  float: left;
 }
 
 #social-media a{
@@ -93,11 +102,11 @@ a{
   height: 1.5rem;
   text-align:center;
   overflow: hidden;
-  
 }
 
-
-
-
-
-
+.collapsible{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 17%;
+	margin: 0 auto;

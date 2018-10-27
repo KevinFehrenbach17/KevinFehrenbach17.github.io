@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="Portfolio-Style.css">
 		<link rel="stylesheet" type="text/css" href="Portfolio-layout.css">
 
+
 		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -33,7 +34,7 @@
 
 	  	 </div>
 	  	<div class = "main-head">
-	  <h1 id="home">Kevin Fehrenbach</h1>
+	  <h1 id="home" class="glow">Kevin Fehrenbach</h1>
 
 	  <img src="hero.jpg" class ="hero"></img>
 	
@@ -46,15 +47,13 @@
 
 		<section>
 		  <div class="about_me"> 
-			<h2 id="about_me"> About Me </h2>
+			<h2 id="about_me" class="glow"> About Me </h2>
 			
 		<div>
 	  <img src = "propic.jpg" class = "ProfilePic"></img>
 	  	</div>
 
-			<p class="para">	Lorem ipsum dolor amet ugh tote bag DIY gluten-free authentic crucifix kogi 3 wolf moon. Poke kickstarter distillery activated charcoal vexillologist hella. Cronut salvia gochujang cray taiyaki. Godard put a bird on it roof party typewriter 8-bit craft beer.	
-
-			Man braid meh listicle, twee pug kitsch synth bespoke 90's kombucha. Air plant VHS mumblecore, plaid normcore pug iceland pok pok. Literally lo-fi 8-bit raclette church-key fashion axe hammock cred tilde kombucha tattooed. Fixie tumeric master cleanse stumptown locavore banjo organic forage next level viral. Taxidermy tofu man braid chartreuse live-edge hashtag, polaroid shoreditch. Succulents sustainable paleo, next level banjo yuccie post-ironic kitsch chambray master cleanse tacos organic keffiyeh kale chips.</p>
+			<p class="para">I am a student at the Columbus Boot Camp, We Can Code It. I first discovered my love for web design and software design by starting to learn online with various resources. I found my self spending anywhere from 4 to 8 hours a day teaching myself HTML and CSS. After I discovered how much I loved working with diffrent coding languages, I decided this was the career I wanted to pursue. I found that attending a codinig boot camp would be the fastest way to break into the industry. Boot camp has sharpened my critical thinking skills more and more, which is necissary for this kind of work. Boot camp also helped me hone the languages that I taught myself, as well as learning new ones. I know that with my creative mind I can have an impact on a team, and really fill that role.</p>
 
 		  </div>
 		
@@ -63,12 +62,13 @@
 		<section>
 			
 		  <div class="skills">
-			<h2 id="skills_nav">Skills</h2>
+			<h2 id="skills_nav" class="glow">Skills</h2>
 				<div class="indv_skills">
 					<ul>Java</ul>
 					<ul>TDD</ul>
 					<ul>Html</ul>
 					<ul>CSS</ul>
+					<ul>JavaScript</ul>
 					<ul>Spring</ul>
 					<ul>MVC</ul>
 					<ul>Git & Github</ul>
@@ -80,7 +80,50 @@
 		<section>
 			
 		  <div class= "project">
-			<h2 id="projects_nav">Projects</h2>
+			<h2 id="projects_nav" class="glow">Projects</h2>
+
+			<!-- Slide Show Goes Here -->
+
+			<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class ="imgSlide"src="Home.jpg">
+    <div class="text">Home Page</div>
+  </div>
+       
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img class = "imgSlide"src="Project.jpg">
+    <div class="text">Project</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img class = "imgSlide" src="AboutUs.jpg">
+    <div class="text">About Us Example</div>
+  </div>
+
+<!-- Collapsable description -->
+
+<button class="collapsible">Open Description</button>
+<div class="content">
+  <p class = "desc">This site I am currently Making for a small busniess owner in Cinncinati, OH. It displays concat info, as well as projects that he as done. This is still in construction</p>
+</div>
+
+
+
+<!-- The dots/circles -->
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> -->
+
+<script src="app.js"></script>
 		  
 				
 				<div class="pic">
@@ -93,45 +136,23 @@
 				
 				<figure>	
 						<img src="dog.jpg" class = "projpic"></img>
-						<a href="https://github.com/KevinFehrenbach17/virtual-pet">Virtual Pet</a>
+						<a href="https://github.com/KevinFehrenbach17/virtual-pet" id = "alert">Virtual Pet</a>
 						<!-- <figcaption>Virtual Pet</figcaption> -->
 				</figure>
 				
 				<figure>
 						<img src="pets.jpg" class = "projpic"></img>
-						<a href="https://github.com/KevinFehrenbach17/virtual-pet-shelter">Virtual Pet Shelter</a>
+						
+						<a href="https://github.com/KevinFehrenbach17/virtual-pet-shelter" id = "alert">Virtual Pet Shelter</a>
+
 						<!-- <figcaption>Virtual Pet Shelter</figcaption> -->
 				</figure>
 
 				</div>
 				</div>
-		   
-
-
-
-
-		</section>	
-			
-			<article>
-
-
-
-			</article>
-		
-
-
-
-
-
+</section>	
 
 				</div>
 			</div>
-
 	</body>
-
-
-
-
-
-
 </html>
