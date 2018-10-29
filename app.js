@@ -34,5 +34,18 @@ for (i = 0; i < coll.length; i++) {
 
 var alertButton = document.getElementById('alert');
 alertButton.onclick = function() {
-    alert('Are you sure you want to leave?')
+    alert('Age: 23. Place of Birth: Cleveland, Ohio. Residence: Columbus, Ohio')
 }
+
+// nav bar
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    // document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    // document.getElementById("main").style.marginLeft= "0";
+}	
+

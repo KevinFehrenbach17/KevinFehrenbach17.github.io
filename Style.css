@@ -61,6 +61,13 @@ h1, h2{
 	margin-left: auto;
 }
 
+.basic_info{
+    margin: 1rem;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 p{
 	font-size:30px;
 	margin: 2rem;
@@ -89,8 +96,9 @@ p{
 }
 
 #social-media a{
-	background: #333;
+	 background: #333;
   	color: #ccc;
+    font-size: 1rem;
   	text-decoration: none;
   	box-shadow: 2px 2px 3px black inset;
 }
@@ -104,6 +112,10 @@ p{
 .text{
 	margin: -27px;
 
+}
+
+.ContactMe{
+  width: 5rem;
 }
 
 .imgSlide{
@@ -125,21 +137,6 @@ p{
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-/* The dots/bullets/indicators */
-/*.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  margin-left: 50px;
-  margin-right: 15px;
-  background-color: #ccc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}*/
-
 .collapsible{
 	background: #333;
   	color: #ccc;
